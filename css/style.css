@@ -1,0 +1,96 @@
+/**
+ *  一些全局的设定
+ *
+ */
+* {
+  border: 0;
+  margin: 0;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/**
+ *  DEMO 样式
+ *  Author: i@mitkimi.com;
+ *  Date: Nov.14, 2018;
+ */
+#section-1 {
+  background: transparent;
+}
+#section-1 .content {
+  text-align: left;
+}
+#section-1 .background {
+  background: url("../images/19203.jpg") no-repeat center / cover;
+}
+#section-2 {
+  background: transparent;
+}
+#section-2 .content {
+  text-align: right;
+}
+#section-2 .background {
+  background: url("../images/20461.jpg") no-repeat center / cover;
+}
+#section-3 {
+  background: transparent;
+}
+#section-3 .content {
+  text-align: left;
+}
+#section-3 .background {
+  background: url("../images/38466.jpg") no-repeat center / cover;
+}
+.parallax .content span {
+  background: rgba(255,255,255,.6);
+  font-size: 48px;
+  padding: 50px 80px;
+  border-radius: 6px;
+}
+.container {
+  border-left: 1px dashed #999999;
+  border-right: 1px dashed #999999;
+}
+.extra-codes {
+  width: 100vw;
+  height: 30vh;
+  background: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+/**
+ *  插件样式
+ *  Author: i@mitkimi.com;
+ *  date: Nov.14, 2018;
+ */
+.parallax {
+  height: 100vh;
+  position: relative;
+}
+.parallax .background {
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+}
+.parallax .content {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
